@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>متجر الحلا</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: #f8f8f8;
+        }
+        .container {
+            max-width: 800px;
+            margin: auto;
+            padding: 20px;
+        }
+        .category {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        .item {
+            background: white;
+            margin: 10px;
+            padding: 15px;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+            width: 45%;
+        }
+        .item img {
+            width: 100%;
+            border-radius: 10px;
+        }
+        .order-button {
+            display: block;
+            margin-top: 10px;
+            padding: 10px;
+            background: #d9534f;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>مرحبا بكم في متجر الحلا</h1>
+        <h2>قسم الحلا</h2>
+        <div class="category">
+            <div class="item">
+                <img src="https://via.placeholder.com/150" alt="كيك الشوكولاتة">
+                <h3>كيك الشوكولاتة</h3>
+                <p>كيك لذيذ بنكهة الشوكولاتة الغنية.</p>
+                <a class="order-button" href="https://wa.me/yourwhatsappnumber">اطلب الآن</a>
+            </div>
+            <div class="item">
+                <img src="https://via.placeholder.com/150" alt="كوكيز الفانيليا">
+                <h3>كوكيز الفانيليا</h3>
+                <p>كوكيز مقرمش بنكهة الفانيليا اللذيذة.</p>
+                <a class="order-button" href="https://wa.me/yourwhatsappnumber">اطلب الآن</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
